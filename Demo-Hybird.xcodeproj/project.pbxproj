@@ -15,6 +15,8 @@
 		A6C259C121367DC300BF699D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C259C021367DC300BF699D /* main.m */; };
 		A6C259CB21367DC300BF699D /* Demo_HybirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C259CA21367DC300BF699D /* Demo_HybirdTests.m */; };
 		A6C259D621367DC300BF699D /* Demo_HybirdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C259D521367DC300BF699D /* Demo_HybirdUITests.m */; };
+		A6C259E721368ADD00BF699D /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C259E621368ADD00BF699D /* Global.m */; };
+		A6C259E921369C1300BF699D /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = A6C259E821369C1300BF699D /* main.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A6C259D121367DC300BF699D /* Demo-HybirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-HybirdUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C259D521367DC300BF699D /* Demo_HybirdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_HybirdUITests.m; sourceTree = "<group>"; };
 		A6C259D721367DC300BF699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C259E521368ADD00BF699D /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		A6C259E621368ADD00BF699D /* Global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		A6C259E821369C1300BF699D /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		A6C259B021367DC100BF699D /* Demo-Hybird */ = {
 			isa = PBXGroup;
 			children = (
+				A6C259E821369C1300BF699D /* main.js */,
+				A6C259E521368ADD00BF699D /* Global.h */,
+				A6C259E621368ADD00BF699D /* Global.m */,
 				A6C259B121367DC100BF699D /* AppDelegate.h */,
 				A6C259B221367DC100BF699D /* AppDelegate.m */,
 				A6C259B421367DC100BF699D /* ViewController.h */,
@@ -238,6 +246,7 @@
 				A6C259BE21367DC300BF699D /* LaunchScreen.storyboard in Resources */,
 				A6C259BB21367DC300BF699D /* Assets.xcassets in Resources */,
 				A6C259B921367DC100BF699D /* Main.storyboard in Resources */,
+				A6C259E921369C1300BF699D /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C259E721368ADD00BF699D /* Global.m in Sources */,
 				A6C259B621367DC100BF699D /* ViewController.m in Sources */,
 				A6C259C121367DC300BF699D /* main.m in Sources */,
 				A6C259B321367DC100BF699D /* AppDelegate.m in Sources */,
